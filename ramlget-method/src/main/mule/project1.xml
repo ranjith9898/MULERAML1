@@ -147,6 +147,6 @@ output application/json
 ]]]></ee:set-payload>
             </ee:message>
         </ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="52167c3c-e676-4259-ae2d-43b861f9c673" message="print the data into console:::::::::::::::::::::::::::::::::::::::::::::::::::"/>
+		<logger level="WARN" doc:name="Logger" doc:id="52167c3c-e676-4259-ae2d-43b861f9c673" message="print the data into console:::::::::::::::::::::::::::::::::::::::::::::::::::and push the code into the repository like GIT "/>
     </flow>
 </mule>
